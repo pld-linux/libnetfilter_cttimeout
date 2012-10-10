@@ -18,15 +18,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 libnetfilter_cttimeout is a userspace library allowing timeout
-policy tuning for Netfilter/conntrack. This infrastructure allows you
-to define fine-grain timeout policies per flow.
+policy tuning for Netfilter/conntrack (supported in Linux 3.4+).
+This infrastructure allows you to define fine-grain timeout policies
+per flow.
 
 %description -l pl.UTF-8
 libnetfilter_cttimeout to biblioteka przestrzeni użytkownika
 pozwalająca na strojenie polityki limitów czasu dla
-Netfiltra/conntracka. Ta infrastruktura pozwala na definiowanie
-szczegółowych polityk limitów czasu dla poszczególnych przepływów
-danych.
+Netfiltra/conntracka (pod Linuksem 3.4+). Ta infrastruktura pozwala na
+definiowanie szczegółowych polityk limitów czasu dla poszczególnych
+przepływów danych.
 
 %package devel
 Summary:	Header files for libnetfilter_cttimeout library
