@@ -1,12 +1,12 @@
 Summary:	A userspace library for Netfilter/conntrack timeout policy tuning
 Summary(pl.UTF-8):	Biblioteka przestrzeni użytkownika do zmiany parametrów limitów czasu Netfiltra/conntracka
 Name:		libnetfilter_cttimeout
-Version:	1.0.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	http://www.netfilter.org/projects/libnetfilter_cttimeout/files/%{name}-%{version}.tar.bz2
-# Source0-md5:	7697437fc9ebb6f6b83df56a633db7f9
+# Source0-md5:	ac64b55952b79cb9910db95ce8883940
 URL:		http://www.netfilter.org/projects/libnetfilter_cttimeout/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1.6
